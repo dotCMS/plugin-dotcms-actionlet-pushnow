@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Export-Package: com.dotcms.plugin.pushnow.actionlet;version="0.1";uses
+ :="com.dotmarketing.portlets.workflows.actionlet,com.dotmarketing.por
+ tlets.workflows.model",com.dotcms.plugin.pushnow.osgi;version="0.1";u
+ ses:="com.dotmarketing.osgi,org.osgi.framework"
+Tool: Bnd-2.1.0.20130426-122213
+Bundle-Name: Push Now Actionlet
+Created-By: 1.7.0_51 (Oracle Corporation)
+DynamicImport-Package: *
+Bundle-Vendor: dotcms
+Bundle-Version: 0.1
+Bnd-LastModified: 1403722512000
+Bundle-ManifestVersion: 2
+Bundle-Activator: com.dotcms.plugin.pushnow.osgi.Activator
+Bundle-Description: dotCMS Push Now Actionlet
+Bundle-SymbolicName: plugin-dotcms-actionlet-pushnow
+Import-Package: com.dotcms.publisher.bundle.bean;version=0,com.dotcms.
+ publisher.bundle.business;version=0,com.dotcms.publisher.business;ver
+ sion=0,com.dotcms.publisher.environment.bean;version=0,com.dotcms.pub
+ lisher.environment.business;version=0,com.dotmarketing.business;versi
+ on=0,com.dotmarketing.exception;version=0,com.dotmarketing.osgi;versi
+ on=0,com.dotmarketing.portlets.contentlet.model;version=0,com.dotmark
+ eting.portlets.workflows.actionlet;version=0,com.dotmarketing.portlet
+ s.workflows.model;version=0,com.dotmarketing.util;version=0,com.lifer
+ ay.portal.model;version=0,org.osgi.framework;version=0
+Bundle-DocURL: http://www.dotcms.com
+
